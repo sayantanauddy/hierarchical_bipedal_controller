@@ -1,0 +1,20 @@
+// This file defines all the continuous remote API server services (started at remote API plugin initialization, i.e. V-REP start-up)
+//
+// Each remote API server service requires following 3 entries:
+//
+// portIndex@_port = xxxx               // where xxxx is the desired port number (below 19997 are preferred for server services starting at V-REP start-up)
+// portIndex@_debug = xxxx              // where xxxx is true or false
+// portIndex@_syncSimTrigger = xxxx     // where xxxx is true or false. When true, then the service will be pre-enabled for synchronous operation.
+//
+// In above strings, @ can be any number starting with 1. If more than one server service is required, then numbers need to be consecutive and starting with 1
+
+// Let's start a continuous remote API server service on port 19997:
+portIndex1_port             = 19997
+portIndex1_debug            = false
+portIndex1_syncSimTrigger   = true
+
+// Let's start a continuous remote API server service on port 19998:
+portIndex2_port             = 19998
+portIndex2_debug            = false
+portIndex2_syncSimTrigger   = true
+
