@@ -6,8 +6,12 @@ network (based on [this work](https://link.springer.com/chapter/10.1007/978-3-31
 of the CPG network are optimized by a genetic algorithm. At the higher level, a
 neural network modulates the output of the CPG network in order to optimize the
 robot’s movements with respect to an overall objective. In this case, the objective
-is to minimize the lateral deviation while walking. The neural network is trained
+is to minimize the lateral deviation while walking which may occur due to slippage or due to an imperfect robot model. The neural network is trained
 using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1509.02971.pdf) (a deep reinforcement learning algorithm). This work was carried out using the [NICO humanoid robot](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/research/neurobotics/nico.html). 
+
+![Walking patterns](nico_walk_8frames_wtmpc_af1_paper.png)
+
+![Correction of deviation](WalkingPatterns_paper.png)
 
 ## Note
 
@@ -15,7 +19,7 @@ using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1
 
 ## Architecture
 
-![alt text](architecture.png)
+![Architecture](ArchitectureDetail_corrected.svg)
 
 ## Important folders/modules
 
