@@ -1,4 +1,5 @@
-# Hierarchical Control for Bipedal Locomotion using Central Pattern Generators and Neural Networks (Master's Thesis code)
+# Hierarchical Control for Bipedal Locomotion using Central Pattern Generators and Neural Networks
+(Master's thesis code)
 
 A biologically inspired, hierarchical bipedal locomotion controller for robots. At the lower level, a CPG
 network with feedback pathways controls the individual joints. The parameters
@@ -10,8 +11,7 @@ using reinforcement learning.
 
 ## Note
 
-The NICO robot's VREP model and the associated python API have not been open sourced yet. Hence they have been removed from this repository as well. They will be added when the robot model and API are released.
-The folders motor_configs, nicomotion and vrep_scenes are empty for the time being.
+* The NICO robot's VREP model and the associated python API have not been open sourced yet. Hence they have been removed from this repository as well. They will be added when the robot model and API are released. The folders motor_configs, nicomotion and vrep_scenes are empty for the time being.
 
 ## Architecture
 
