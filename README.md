@@ -9,13 +9,8 @@ robot’s movements with respect to an overall objective. In this case, the obje
 is to minimize the lateral deviation while walking which may occur due to slippage or due to an imperfect robot model. The neural network is trained
 using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1509.02971.pdf) (a deep reinforcement learning algorithm). This work was carried out using the [NICO humanoid robot](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/research/neurobotics/nico.html). 
 
-
-![Walking patterns](nico_walk_8frames_wtmpc_af1_paper.png)
-*Snapshots of the NICO robot walking using the proposed controller*
-
-
 ![Correction of deviation](WalkingPatterns_paper.png)
-*The hierarchical controller can minimize the lateral deviation, even in the presence of systematic and non-systematic errors.*
+*The hierarchical controller can minimize the lateral deviation, even in the presence of systematic and non-systematic errors. The robot with the red colored path uses only the CPG network. For the blue-paths the hierarchical controller was used. The highlighted case (4th from left) shows the best performing hyperparameter setup.*
 
 ## Note
 
