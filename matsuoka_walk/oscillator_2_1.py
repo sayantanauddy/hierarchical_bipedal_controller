@@ -47,11 +47,11 @@ def oscillator_nw(position_vector, max_time=20.0, fitness_option=6):
             log('[OSC] Trying to create robot handle (attempt: {0} of {1})'.format(try_counter, try_max))
             try_counter += 1
             robot_handle = Nico(sync_sleep_time=0.1,
-                                motor_config=os.path.join(home_dir,'computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/motor_configs/nico_humanoid_full_v1.json'),
+                                motor_config=os.path.join(home_dir,'computing/repositories/hierarchical_bipedal_controller/motor_configs/nico_humanoid_full_v1.json'),
                                 vrep=True,
                                 vrep_host='127.0.0.1',
                                 vrep_port=19997,
-                                vrep_scene=os.path.join(home_dir,'computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/vrep_scenes/NICO-Simplified-July2017_standing_Foot_sensors_v4_no_graphs.ttt')
+                                vrep_scene=os.path.join(home_dir,'computing/repositories/hierarchical_bipedal_controller/vrep_scenes/NICO-Simplified-July2017_standing_Foot_sensors_v4_no_graphs.ttt')
                                 )
         except Exception, e:
             log('[OSC] Could not connect to VREP')

@@ -116,12 +116,12 @@ class MatsuokaAngleFeedbackEnv(gym.Env):
                 try_counter += 1
                 self.robot_handle = Nico(sync_sleep_time=0.1,
                                          motor_config=os.path.join(self.home_dir,
-                                                                   'computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/motor_configs/nico_humanoid_full_v1.json'),
+                                                                   'computing/repositories/hierarchical_bipedal_controller/motor_configs/nico_humanoid_full_v1.json'),
                                          vrep=True,
                                          vrep_host='127.0.0.1',
                                          vrep_port=19997,
                                          vrep_scene=os.path.join(self.home_dir,
-                                                                 'computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/vrep_scenes/NICO-Simplified-July2017_standing_Foot_sensors_v4_no_graphs.ttt')
+                                                                 'computing/repositories/hierarchical_bipedal_controller/vrep_scenes/NICO-Simplified-July2017_standing_Foot_sensors_v4_no_graphs.ttt')
                                          )
 
             except Exception, e:

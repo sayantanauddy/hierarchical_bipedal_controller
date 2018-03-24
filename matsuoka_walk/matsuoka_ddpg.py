@@ -61,7 +61,7 @@ SEED_FOR_RANDOM = 456
 home_dir = os.path.expanduser('~')
 
 # Directory to save trained models
-model_dir = os.path.join(home_dir, 'computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/ddpg_trained_models')
+model_dir = os.path.join(home_dir, 'computing/repositories/hierarchical_bipedal_controller/ddpg_trained_models')
 
 
 class ActorNetwork(object):
@@ -172,7 +172,7 @@ class CriticNetwork(object):
                    kernel_initializer=RandomUniform(minval=-1.0 / np.sqrt(HIDDEN2_UNITS), maxval=1.0 / np.sqrt(HIDDEN2_UNITS)),
                    bias_initializer=RandomUniform(minval=-1.0 / np.sqrt(HIDDEN2_UNITS), maxval=1.0 / np.sqrt(HIDDEN2_UNITS))
                    )(h2)
-        V = Dense(action_dim, activation='linear',  # Not clear what this activation function should be
+        V = Dense(action_dim, activation='linear',  # Linear activation function
                   kernel_initializer=RandomUniform(minval=-0.003, maxval=0.003),
                   bias_initializer=RandomUniform(minval=-0.003, maxval=0.003))(h3)
         model = Model(input=[S, A], output=V)

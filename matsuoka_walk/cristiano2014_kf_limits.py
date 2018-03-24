@@ -9,7 +9,7 @@ import os
 home_dir = os.path.expanduser('~')
 
 # Set the directory for saving plots
-plot_dir = os.path.join(home_dir, 'computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/plots')
+plot_dir = os.path.join(home_dir, 'computing/repositories/hierarchical_bipedal_controller/plots')
 
 def pacemaker(kf):
 
