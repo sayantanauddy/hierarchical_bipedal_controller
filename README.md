@@ -2,7 +2,7 @@
 (Master's thesis code)
 
 A biologically inspired, hierarchical bipedal locomotion controller for robots. At the lower level, a CPG
-network with feedback pathways controls the individual joints. The parameters
+network (based on [this work](https://link.springer.com/chapter/10.1007/978-3-319-03413-3_39)) with feedback pathways controls the individual joints. The parameters
 of the CPG network are optimized by a genetic algorithm. At the higher level, a
 neural network modulates the output of the CPG network in order to optimize the
 robot’s movements with respect to an overall objective. In this case, the objective
