@@ -14,7 +14,7 @@ using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1
 
 ## Note
 
-* The NICO robot's VREP model and the associated python API have not been open sourced yet. Hence they have been removed from this repository as well. They will be added when the robot model and API are released. The folders motor_configs, nicomotion and vrep_scenes are empty for the time being.
+* The particular version of the NICO robot's VREP model and the associated python API have not been open sourced yet. Hence they have been removed from this repository as well. They will be added when the robot model and API are released. The folders motor_configs, nicomotion and vrep_scenes are empty for the time being.
 
 ## Architecture
 
