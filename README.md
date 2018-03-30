@@ -14,7 +14,7 @@ using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1
 
 ## Thesis
 
-My MSc thesis can be viewed or downloaded from [here](thesis/Auddy_MSc_Thesis_Hierarchical_Control.pdf).
+My MSc thesis can be viewed or downloaded from [here](https://github.com/sayantanauddy/MSc_Thesis).
 
 ## Note
 
