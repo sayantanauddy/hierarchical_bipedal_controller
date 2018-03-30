@@ -149,8 +149,7 @@ My MSc thesis can be viewed or downloaded from [here](thesis/Auddy_MSc_Thesis_Hi
       school                   = {Universit{\"a}t Hamburg, Hamburg, Germany},
       language                 = {English},
       Year                     = {2017},
-      month                    = {Dec},
-      url                      = {}
+      month                    = {Dec}
     }
 
 ## Miscelleneous
