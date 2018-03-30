@@ -1,5 +1,5 @@
 # Hierarchical Control for Bipedal Locomotion using Central Pattern Generators and Neural Networks
-(Master of Science Thesis)
+(Master of Science Thesis, Intelligent Adaptive Systems, University of Hamburg)
 
 A biologically inspired, hierarchical bipedal locomotion controller for robots. At the lower level, a CPG
 network (based on [this work](https://link.springer.com/chapter/10.1007/978-3-319-03413-3_39)) with feedback pathways controls the individual joints. The parameters
@@ -14,7 +14,7 @@ using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1
 
 ## Thesis
 
-[MSc Thesis](thesis/Auddy_MSc_Thesis_Hierarchical_Control.pdf)
+My MSc thesis can be viewed or downloaded from [here](thesis/Auddy_MSc_Thesis_Hierarchical_Control.pdf).
 
 ## Note
 
