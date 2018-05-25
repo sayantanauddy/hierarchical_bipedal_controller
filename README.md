@@ -14,7 +14,7 @@ using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1
 
 ## Thesis
 
-My MSc thesis can be viewed or downloaded from [here](https://github.com/sayantanauddy/MSc_Thesis).
+My MSc thesis can be viewed or downloaded from [here](http://edoc.sub.uni-hamburg.de/informatik/volltexte/2018/237/).
 
 ## Note
 
