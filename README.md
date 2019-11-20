@@ -12,13 +12,18 @@ using the [deep deterministic policy gradient algorithm](https://arxiv.org/pdf/1
 ![Correction of deviation](WalkingPatterns_paper.png)
 *The hierarchical controller can minimize the lateral deviation, even in the presence of systematic and non-systematic errors. The robot with the red colored path uses only the CPG network. For the blue-paths the hierarchical controller was used. The highlighted case (4th from left) shows the best performing hyperparameter setup.*
 
+## Paper
+
+The paper presented at ICDL-Epirob 2019 can be viewed [here (official)](https://ieeexplore.ieee.org/document/8850683) or [here (arxiv)](https://arxiv.org/abs/1909.00732).
+
 ## Thesis
 
 My MSc thesis can be viewed or downloaded from [here](http://edoc.sub.uni-hamburg.de/informatik/volltexte/2018/237/).
 
+
 ## Note
 
-* The particular version of the NICO robot's VREP model and the associated python API have not been open sourced yet. Hence they have been removed from this repository as well. They will be added when the robot model and API are released. The folders motor_configs, nicomotion and vrep_scenes are empty for the time being.
+* The NICO robot's VREP model and the associated Python API can be found at [this link](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/research/neurobotics/nico.html) under resources. The folders motor_configs, nicomotion and vrep_scenes are empty in this repository but the relevant files should be obtained from the links mentioned above.
 
 ## Architecture
 
@@ -142,6 +147,18 @@ My MSc thesis can be viewed or downloaded from [here](http://edoc.sub.uni-hambur
 9. Run the necessary script. For example ga_3.py to run the genetic algorithm or matsuoka_ddpg.py to run the DDPG training.
 
 ## Citation
+
+    @INPROCEEDINGS{auddy2019,
+    author={S. {Auddy} and S. {Magg} and S. {Wermter}},
+    booktitle={2019 Joint IEEE 9th International Conference on Development and Learning and Epigenetic Robotics (ICDL-EpiRob)},
+    title={Hierarchical Control for Bipedal Locomotion using Central Pattern Generators and Neural Networks},
+    year={2019},
+    volume={},
+    number={},
+    pages={13-18},
+    doi={10.1109/DEVLRN.2019.8850683},
+    ISSN={2161-9484},
+    month={Aug},}
 
     @Mastersthesis{AuddyMscThesis2017,
       Title                    = {Hierarchical Control for Bipedal Locomotion using Central Pattern Generators and Neural Networks},
