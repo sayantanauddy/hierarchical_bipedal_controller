@@ -20,6 +20,9 @@ The paper presented at ICDL-Epirob 2019 can be viewed [here (official)](https://
 
 My MSc thesis can be viewed or downloaded from [here](http://edoc.sub.uni-hamburg.de/informatik/volltexte/2018/237/).
 
+## Video
+
+A small explanation of the architecture and videos of the robot's walking motion can be found [here](https://www.youtube.com/watch?v=4c64rKhj72E)
 
 ## Note
 
