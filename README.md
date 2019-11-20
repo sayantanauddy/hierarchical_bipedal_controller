@@ -22,7 +22,7 @@ My MSc thesis can be viewed or downloaded from [here](http://edoc.sub.uni-hambur
 
 ## Video
 
-A small explanation of the architecture and videos of the robot's walking motion can be found [here](https://www.youtube.com/watch?v=4c64rKhj72E)
+A small explanation of the architecture and videos of the robot's walking motion can be found [here](https://www.youtube.com/watch?v=4c64rKhj72E).
 
 ## Note
 
