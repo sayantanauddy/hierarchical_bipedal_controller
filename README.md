@@ -80,7 +80,7 @@ A small explanation of the architecture and videos of the robot's walking motion
     cd $HOME
     mkdir -p $HOME/computing/repositories/
     cd $HOME/computing/repositories/
-    git clone https://git.informatik.uni-hamburg.de/wtmstaff/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking.git
+    git clone https://github.com/sayantanauddy/hierarchical_bipedal_controller.git
     ```
 
 3. Download VREP
