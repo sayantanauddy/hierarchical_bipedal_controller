@@ -98,7 +98,7 @@ A small explanation of the architecture and videos of the robot's walking motion
 3. Copy the VREP scripts
 
     ```bash
-    cd $HOME/computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/vrep_scripts/
+    cd $HOME/computing/repositories/hierarchical_bipedal_controller
     cp start_vrep.sh $HOME/computing/simulators/V-REP_PRO_EDU_V3_4_0_Linux/
     cp remoteApiConnections.txt $HOME/computing/simulators/V-REP_PRO_EDU_V3_4_0_Linux/
     cd $HOME/computing/simulators/V-REP_PRO_EDU_V3_4_0_Linux/
@@ -123,8 +123,8 @@ A small explanation of the architecture and videos of the robot's walking motion
 6. Add the code location to PYTHONPATH
 
     ```bash
-    export PYTHONPATH=$PYTHONPATH:$HOME/computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking/nicomotion
-    export PYTHONPATH=$PYTHONPATH:$HOME/computing/repositories/MScThesis_SayantanAuddy_2017_NICOOscillatorWalking
+    export PYTHONPATH=$PYTHONPATH:$HOME/computing/repositories/hierarchical_bipedal_controller/nicomotion
+    export PYTHONPATH=$PYTHONPATH:$HOME/computing/repositories/hierarchical_bipedal_controller
     ```
 
 7. Install the dependencies
